@@ -1,0 +1,24 @@
+[general]
+show_welcome = false
+last_viewed_menu_index = 2
+
+[display.quality]
+surface_scale = 8
+
+[display.window]
+startup_size = '1920x1080'
+
+[display.ui]
+show_menubar = false
+use_animations = false
+aspect_ratio = '16x9'
+
+[net]
+backend = 'pcap'
+
+[sys.files]
+bootrom_path = '/home/box/mcpx/mcpx_1.0.bin'
+flashrom_path = '/home/box/bios/Complex_4627.bin'
+eeprom_path = '/home/box/.local/share/xemu/xemu/eeprom.bin'
+hdd_path = '/home/box/hdd/xbox_hdd.qcow2'
+
