@@ -3,6 +3,8 @@
 cp /root/xemubox-postinstall-scripts/box.xinitrc /mnt/home/box/.xinitrc
 cp /root/xemubox-postinstall-scripts/box.bash_profile /mnt/home/box/.bash_profile
 
+cp /etc/pacman.conf /mnt/etc/pacman.conf
+
 mkdir /mnt/etc/systemd/system/getty@tty1.service.d
 
 cp /root/xemubox-postinstall-scripts/autologin.conf /mnt/etc/systemd/system/getty@tty1.service.d/autologin.conf
