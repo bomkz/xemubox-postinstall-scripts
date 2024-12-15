@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 cp /root/xemubox-postinstall-scripts/box.xinitrc /mnt/archinstall/home/box/.xinitrc
 cp /root/xemubox-postinstall-scripts/box.bash_profile /mnt/archinstall/home/box/.bash_profile
 

@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 chown box /home/box/.xinitrc 
 chown box /home/box/.bash_profile
 
