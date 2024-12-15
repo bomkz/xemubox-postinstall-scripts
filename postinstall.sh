@@ -31,6 +31,10 @@ unzip xbox_hdd.zip
 cp /mnt/archinstall/root/mcpx /mnt/archinstall/home/box -r
 cp /mnt/archinstall/root/bios /mnt/archinstall/home/box -r
 
+cp /root/xemubox-postinstall-scripts/logind.conf /mnt/archinstall/etc/systemd/logind.conf
+cp /root/xemubox-postinstall-scripts/01-on-wake.sh /mnt/archinstall/usr/lib/systemd/system-sleep/01-on-wake.sh
+chmod +x /mnt/archinstall/usr/lib/systemd/system-sleep/01-on-wake.sh
+
 mkdir /mnt/archinstall/home/box/hdd
 cp /mnt/archinstall/root/xbox_hdd.qcow2 /mnt/archinstall/home/box/hdd/xbox_hdd.qcow2
 
