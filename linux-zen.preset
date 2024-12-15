@@ -8,7 +8,7 @@ PRESETS=('default' 'fallback')
 #default_config="/etc/mkinitcpio.conf"
 #default_image="/boot/initramfs-linux-zen.img"
 default_uki="/boot/EFI/Linux/arch-linux-zen.efi"
-default_options="quiet loglevel=3 udev.log_level=3 rd.udev.log_level=3 systemd.show_status=false"
+default_options="quiet loglevel=3 udev.log_level=3 rd.udev.log_level=3 systemd.show_status=false libahci.ignore_sss=1"
 
 #fallback_config="/etc/mkinitcpio.conf"
 #fallback_image="/boot/initramfs-linux-zen-fallback.img"

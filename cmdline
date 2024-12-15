@@ -1,1 +1,1 @@
-quiet loglevel=3 udev.log_level=3 rd.udev.log_level=3 systemd.show_status=false
+quiet loglevel=3 udev.log_level=3 rd.udev.log_level=3 systemd.show_status=false libahci.ignore_sss=1
