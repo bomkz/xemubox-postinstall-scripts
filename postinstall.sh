@@ -38,6 +38,6 @@ rm /mnt/archinstall/root/bios -r
 rm /mnt/archinstall/root/hdd -r
 rm /mnt/archinstall/root/xbox_hdd.qcow2 
 
-cp /root/xemubox-postinstall-script/install.sh /mnt/archinstall/root/install.sh
+cp /root/xemubox-postinstall-scripts/install.sh /mnt/archinstall/root/install.sh
 
 arch-chroot /mnt/archinstall /root/install.sh
