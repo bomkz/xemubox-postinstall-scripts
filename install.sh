@@ -34,7 +34,10 @@ chmod a+rwx /home/box/mcpx
 chmod a+rwx /home/box/bios/Complex_4627.bin
 chmod a+rwx /home/box/bios
 
+chmod a+rwx /root/on-wakeup.sh
+
 systemctl enable getty@tty1
 systemctl enable dhcpcd
+systemctl enable wake-up.service
 
 pacman --noconfirm -S linux-zen

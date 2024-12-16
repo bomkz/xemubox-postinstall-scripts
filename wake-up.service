@@ -1,0 +1,9 @@
+[Unit]
+Description=Run script on woke.
+
+[Service]
+Type=oneshot
+ExecStart=/root/on-wakeup.sh
+
+[Install]
+WantedBy=suspend.target

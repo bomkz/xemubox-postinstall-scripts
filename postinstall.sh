@@ -5,6 +5,9 @@ set -e
 cp /root/xemubox-postinstall-scripts/box.xinitrc /mnt/archinstall/home/box/.xinitrc
 cp /root/xemubox-postinstall-scripts/box.bash_profile /mnt/archinstall/home/box/.bash_profile
 
+cp /root/xemubox-postinstall-scripts/on-wakeup.sh /mnt/archinstall/root/on-wakeup.sh
+cp /root/xemubox-postinstall-scripts/wake-up.service /mnt/archinstall/etc/systemd/system/wake-up.service
+
 cp /etc/pacman.conf /mnt/archinstall/etc/pacman.conf
 
 mkdir /mnt/archinstall/etc/systemd/system/getty@tty1.service.d
