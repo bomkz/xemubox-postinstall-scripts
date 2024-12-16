@@ -44,7 +44,12 @@ rm /mnt/archinstall/root/mcpx -r
 rm /mnt/archinstall/root/bios -r
 rm /mnt/archinstall/root/hdd -r
 rm /mnt/archinstall/root/xbox_hdd.qcow2 
+rm /mnt/archinstall/root/xbox_hdd.zip
+rm /mnt/archinstall/root/xbox.zip
+rm /mnt/archinstall/root/xbox-hdd-image-with-original-dashboard -r
 
 cp /root/xemubox-postinstall-scripts/install.sh /mnt/archinstall/root/install.sh
 
 arch-chroot /mnt/archinstall /root/install.sh
+
+rm /mnt/archinstall/root/install.sh
